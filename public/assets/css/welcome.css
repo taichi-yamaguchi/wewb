@@ -1,0 +1,96 @@
+@charset "utf-8";
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #384878;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.nav a{
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.icon-a:hover{
+    background-color: white;
+    color: #384878;
+    border-radius: 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+.logo1{
+    color: white;
+    font-size: 25px;
+}
+
+h5{
+    margin-left: 5px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    display: block;
+    
+}
+
+.icon-group{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.myclass1{
+    -webkit-text-stroke: 2px white;
+    font-size: 150px;
+}
+.welcome-img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+.img-1{
+    padding: 15px 15px 15px 15px;
+}
+.icon{
+    display: flex;
+}
+.plain-group{
+    margin-left: 15px;
+}
+.plain-main{
+    text-decoration: none;
+    color: #384878;
+    font-size: 20px;
+}
+.plain{
+    color: #384878;
+    font-size: 13px;
+
+}
+.back{
+    background-color:  #384878;
+    border-radius: 10px;
+}
+.title{
+    width: 500px;
+    margin: 25px auto 25px;
+}
+.title p{
+    color: #384878;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid  #384878;
+}
+

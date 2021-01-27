@@ -1,100 +1,64 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+@extends('layouts.app')
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+@section('content')
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+<main>
+    <div id="img-top" class="carousel slide welcome-img-box" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="welcome-img" src="/images/S__5259292 2.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="welcome-img" src="/images/S__5259294 2.jpg" alt="Second slide">
             </div>
         </div>
-    </body>
-</html>
+        <ol class="carousel-indicators">
+            <li data-target="#img-top" data-slide-to="0" class="active"></li>
+            <li data-target="#img-top" data-slide-to="1"></li>
+        </ol>
+    </div>
+    <div class="title">
+        <p>3つの事業</p>
+    </div>
+    <div class="icon-group">
+        <div class="icon">
+            <div class="back">
+                <a href>
+                    <img class="img-1" src="/images/w-buy.png" alt="First icon">
+                </a>
+            </div>
+            <div class="plain-group">
+                <p class="plain-main">機械買取</p>
+                <p class="plain">中古機械の買取から小さなことでも<br>ご相談ください。</p>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="back">
+                <a href>
+                    <img class="img-1" src="/images/w-sell.png" alt="Second icon">
+                </a>
+            </div>
+            <div class="plain-group">
+                <p class="plain-main">機械販売</p>
+                <p class="plain">新品・中古どちらも取り扱っております。<br>お客様のご要望にお応えします。</p>
+            </div>
+        </div>
+        <div class="icon">
+            <div class="back">
+                <a href>
+                    <img class="img-1" src="/images/w-paint.png" alt="Third icon">
+                </a>
+            </div>
+            <div class="plain-group">
+                <p class="plain-main">機械塗装</p>
+                <p class="plain">工作機械塗装を行っており、<br>半世紀のキャリアがございます。</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+@endsection
+
+
+

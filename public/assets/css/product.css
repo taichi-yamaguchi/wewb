@@ -1,0 +1,30 @@
+@charset "utf-8";
+.main-b{
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+.product1{
+    width: 300px;
+    height: auto;
+}
+.top-p{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid  #384878;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.product1-group{
+    width:300px;
+    margin: 25px auto 15px;
+}
+.data{
+    padding-left: 5px;
+}
+table{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+

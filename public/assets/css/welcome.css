@@ -1,49 +1,4 @@
 @charset "utf-8";
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #384878;
-    height: 50px;
-}
-.nav{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-.nav a{
-    padding: 5px 20px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.icon-a:hover{
-    background-color: white;
-    color: #384878;
-    border-radius: 5px;
-}
-.logo{
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-}
-.logo a{
-    text-decoration: none;
-    color: white;
-}
-.logo1{
-    color: white;
-    font-size: 25px;
-}
-
-h5{
-    margin-left: 5px;
-    margin-bottom: 0px;
-    color: white;
-    font-size: 15px;
-    display: block;
-    
-}
 
 .icon-group{
     display: flex;
@@ -76,7 +31,7 @@ h5{
 }
 .plain{
     color: #384878;
-    font-size: 13px;
+    font-size: 15px;
 
 }
 .back{

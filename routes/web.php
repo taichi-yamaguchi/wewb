@@ -19,3 +19,7 @@ Route::get('/company', function () {
     return view('company');
 });
 
+Route::get('/product', function () {
+    return view('product');
+});
+

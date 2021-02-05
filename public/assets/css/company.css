@@ -1,0 +1,46 @@
+@charset "utf-8";
+.main-a{
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+.amount{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 15px;
+    background-color: white;
+    color:  #384878;
+    height: 100vh;
+}
+.top{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid  #384878;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.change{
+    margin: 20px auto 15px;
+    width: 310px;
+}
+.place-a{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid  #384878;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding-bottom: 10px;
+}
+.map-code{
+    margin: 20px auto 15px;
+    width: 310px;
+}
+.sns-group{
+    width: 310px;
+    margin: 30px auto 20px;
+    text-align: center;
+}
+.icon-b{
+    text-decoration: none;
+    color: #384878;
+}

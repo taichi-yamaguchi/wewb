@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.main-e{
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+
+.article{
+    padding: 50px;
+    text-align: center;
+}
+.thanks-button{
+    text-align: center;
+}
+.thanks-button1{
+    background-color:  #384878;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.thanks-button1:hover{
+    background-color: white;
+    color: #384878;
+    border: 2px solid #384878;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+@media (max-width: 750px){
+
+    .title{
+        width: 80%;
+    }
+
+    .amount{
+        width: 375px;
+        margin: 0 auto;
+        padding-top: 12px;
+        background-color: white;
+        color:  #384878;
+        height: 100vh;
+    }
+
+    
+}

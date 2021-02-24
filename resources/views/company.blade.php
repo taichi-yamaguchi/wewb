@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="sns-group">
-            <a class="icon-b" href="{{ url('https://twitter.com/taichi_9220') }}">
+            <a class="icon-b" href="{{ url('https://twitter.com/7fvv6JRnycejiTy') }}">
                 <i class="fab fa-twitter fa-2x"></i>
             </a>
         </div>

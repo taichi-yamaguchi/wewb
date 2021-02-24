@@ -13,17 +13,20 @@
         <link href="{{ asset('assets/css/welcome.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/company.css') }}" rel="stylesheet">
         <link href="{{ asset('assets/css/product.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/index.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/confirm.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/css/thanks.css') }}" rel="stylesheet">
+
     </head>
     <body>
         <header>
             <div class="logo">
                 <a class="logo1" href="{{ url('/') }}">春山機械</a>
-                <h5>〜中古機械販売買取から塗装まで〜</h5>
             </div>{{-- logo --}}
             <div class="nav">
                 <a class="icon-a" href="{{ url('/company') }}">会社情報</a>
                 <a class="icon-a" href="{{ url('/product') }}">機械情報</a>
-                <a class="icon-a" href>お問い合わせ</a>
+                <a class="icon-a" href="{{ route('contact.index') }}">お問い合わせ</a>
             </div>{{-- nav --}}
         </header>
 

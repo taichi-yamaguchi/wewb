@@ -5,7 +5,7 @@
 <main class="main-a">
     <div class="amount">
         <div>
-            <p class="top-p">在庫情報</p>
+            <p class="top">在庫情報</p>
         </div>
         <div class="product1-group">
             <img class="product1" src="/images/S__5357601.jpg" alt="product1">

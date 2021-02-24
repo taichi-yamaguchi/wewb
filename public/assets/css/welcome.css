@@ -27,11 +27,11 @@
 .plain-main{
     text-decoration: none;
     color: #384878;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 .plain{
     color: #384878;
-    font-size: 15px;
+    font-size: 0.9rem;
 
 }
 .back{
@@ -44,8 +44,37 @@
 }
 .title p{
     color: #384878;
-    font-size: 25px;
+    font-size: 1.7rem;
     text-align: center;
     border-bottom: 2px solid  #384878;
 }
 
+@media (max-width: 750px){
+
+    .icon-group{
+        flex-direction: column;
+    }
+
+    .title{
+        width: 80%;
+    }
+    
+    .welcome-img{
+        height: 500px;
+    }
+    .plain{
+        font-size: 0.75rem;
+    
+    }
+
+    .icon{
+        margin-top: 20px;
+    }
+
+    .icon-group{
+        margin-top: 20px;
+    }
+
+    
+    
+    }

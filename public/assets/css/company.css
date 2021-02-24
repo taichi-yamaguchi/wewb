@@ -6,41 +6,64 @@
 .amount{
     width: 700px;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 12px;
     background-color: white;
     color:  #384878;
     height: 100vh;
 }
 .top{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.35rem;
     border-bottom: 1px solid  #384878;
     width: 300px;
     margin: 0 auto;
     padding-bottom: 10px;
 }
 .change{
-    margin: 20px auto 15px;
+    margin: 10px auto 15px;
     width: 310px;
 }
 .place-a{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;
     border-bottom: 1px solid  #384878;
     width: 300px;
     margin: 0 auto 20px;
     padding-bottom: 10px;
 }
 .map-code{
-    margin: 20px auto 15px;
+    margin: 5px auto 15px;
     width: 310px;
 }
 .sns-group{
     width: 310px;
-    margin: 30px auto 20px;
+    margin: 10px auto 0;
     text-align: center;
 }
 .icon-b{
     text-decoration: none;
     color: #384878;
+}
+
+@media (max-width: 750px){
+
+    .title{
+        width: 80%;
+    }
+
+    .amount{
+        width: 375px;
+        margin: 0 auto;
+        padding-top: 12px;
+        background-color: white;
+        color:  #384878;
+        height: 100vh;
+    }
+
+    .sns-group{
+        width: 310px;
+        margin: 25px auto 0;
+        text-align: center;
+    }
+
 }
